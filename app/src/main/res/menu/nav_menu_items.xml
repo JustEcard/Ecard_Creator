@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_add_money"
+            android:icon="@drawable/ic_add_money"
+            android:title="Add Money" />
+        <item
+            android:id="@+id/nav_withdrawal"
+            android:icon="@drawable/ic_withdrawal"
+            android:title="Withdrawal"/>
+        <item
+            android:id="@+id/nav_refer"
+            android:icon="@drawable/ic_refer_earn"
+            android:title="Refer and Earn" />
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@drawable/ic_offer_promotions"
+            android:title="Offer And Promotions"
+             />
+        <item
+            android:id="@+id/nav_customer_support"
+            android:icon="@drawable/ic_customer_support"
+            android:title="Customers Support"/>
+    </group>
+
+    <item android:title="Personal">
+        <menu>
+
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_sign_out"
+                android:title="Sign out" />
+
+            <item
+                android:id="@+id/nav_summary"
+                android:icon="@drawable/ic_summary"
+                android:title="Summary"/>
+
+        </menu>
+    </item>
+</menu>

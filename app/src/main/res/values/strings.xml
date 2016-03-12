@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ecard Creator</string>
+    <string name="app_open">appopened</string>
+    <string name="app_closed">appclosed</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_money">AddMoney</string>
+
+</resources>

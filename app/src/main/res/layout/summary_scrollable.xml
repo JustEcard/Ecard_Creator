@@ -1,0 +1,217 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1"
+    android:fillViewport="true"
+
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff">
+
+
+        <!-- Row 1 with single column -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            >
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar1"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/colorPrimary"
+                android:layout_span="4">
+            </android.support.v7.widget.Toolbar>
+
+
+        </TableRow>
+
+        <!-- Row 2 with 3 columns -->
+
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/TextView15" android:text="Date"
+                 android:background="#dcdcdc"
+                android:textColor="#000000"
+
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView16" android:text="Withdrawal"
+              android:background="#d3d3d3"
+                android:textColor="#000000"
+
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView17" android:text="Deposit"
+                 android:background="#cac9c9"
+                android:textColor="#000000"
+
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView18" android:text="Balance"
+                android:background="#cac9c9"
+                android:textColor="#000000"
+
+                android:padding="20dip" android:gravity="center"/>
+
+        </TableRow>
+
+        <!-- Row 3 with 2 columns -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/TextView23" android:text="Date"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+
+                android:layout_weight="1"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView24" android:text="Withdrawal"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:layout_weight="3"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView25" android:text="Deposit"
+                android:background="#cac9c9"
+                android:textColor="#000000"
+                android:layout_weight="3"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView26" android:text="Balance"
+                android:background="#cac9c9"
+                android:textColor="#000000"
+                android:layout_weight="3"
+                android:padding="20dip" android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/TextView27" android:text="Date"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+
+                android:layout_weight="1"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView28" android:text="Withdrawal"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:layout_weight="3"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView29" android:text="Deposit"
+                android:background="#cac9c9"
+                android:textColor="#000000"
+                android:layout_weight="3"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView30" android:text="Balance"
+                android:background="#cac9c9"
+                android:textColor="#000000"
+                android:layout_weight="3"
+                android:padding="20dip" android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/TextView31" android:text="Date"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+
+                android:layout_weight="1"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView32" android:text="Withdrawal"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:layout_weight="3"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView33" android:text="Deposit"
+                android:background="#cac9c9"
+                android:textColor="#000000"
+                android:layout_weight="3"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView34" android:text="Balance"
+                android:background="#cac9c9"
+                android:textColor="#000000"
+                android:layout_weight="3"
+                android:padding="20dip" android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/TextView35" android:text="Date"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+
+                android:layout_weight="1"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView36" android:text="Withdrawal"
+                android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:layout_weight="3"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView37" android:text="Deposit"
+                android:background="#cac9c9"
+                android:textColor="#000000"
+                android:layout_weight="3"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView26" android:text="Balance"
+                android:background="#cac9c9"
+                android:textColor="#000000"
+                android:layout_weight="3"
+                android:padding="20dip" android:gravity="center"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>>
+</ScrollView>
